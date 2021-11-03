@@ -26,8 +26,7 @@ const MenuItemComponent = ({ item, isLast }: MenuItemComponentProps) => {
   const { state, theme, menuProps } = useInternal();
 
   const borderStyles = useAnimatedStyle(() => {
-    const borderBottomColor =
-      theme.value === 'dark' ? BORDER_DARK_COLOR : BORDER_LIGHT_COLOR;
+    const borderBottomColor = BORDER_DARK_COLOR;
 
     return {
       borderBottomColor,

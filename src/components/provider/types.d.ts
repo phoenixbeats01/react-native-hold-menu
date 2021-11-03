@@ -11,7 +11,7 @@ export interface HoldMenuProviderProps {
   children: React.ReactElement | React.ReactElement[];
 
     /**
-   * Set true if you want to disable the blured backdrop 
+   * Set true if you want to disable the blurred backdrop 
    * @type boolean
    * @default false
    * @examples

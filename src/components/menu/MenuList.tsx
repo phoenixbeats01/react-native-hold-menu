@@ -101,11 +101,11 @@ const MenuListComponent = () => {
       backgroundColor:
         theme.value === 'light'
           ? IS_IOS
-            ? 'rgba(255, 255, 255, .75)'
-            : 'rgba(255, 255, 255, .95)'
+            ? 'rgb(255, 255, 255)'
+            : 'rgb(255, 255, 255)'
           : IS_IOS
-          ? 'rgba(0,0,0,0.5)'
-          : 'rgba(39, 39, 39, .8)',
+          ? 'rgb(39, 39, 39)'
+          : 'rgb(39, 39, 39)',
     };
   }, [theme]);
 
